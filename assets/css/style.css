@@ -57,7 +57,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #2B3A8C;
+  color: #003f9d;
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -76,10 +76,10 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #25B8D9;
+  background: #0a58ca;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 12px;
   transition: all 0.4s;
 }
 .back-to-top i {
@@ -617,6 +617,9 @@ section {
 .space2{
  height: 40px;
 }
+.details{
+  padding-top: 30px!important;
+} 
 .space3{
   height: 20px;
  }
