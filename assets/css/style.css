@@ -333,20 +333,20 @@ section {
 }
 .hero h3 {
   margin: 0;
-  font-size: 32px;
+  font-size: 1.7rem;
   font-weight: 600;
   color:#25B8D9;
 }
 .hero h1 {
-  margin: 0;
-  font-size: 38px;
+  margin: 10px 0 0 0;
+  font-size: 3rem;
   font-weight: 700;
   color: #2B3A8C;
 }
 .hero h2 {
   color: #444444;
-  margin: 15px 0 0 0;
-  font-size: 20px;
+  margin: 20px 0 0 0;
+  font-size: 1.4rem;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -398,10 +398,10 @@ section {
     text-align: center;
   }
   .hero h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .hero h2 {
-    font-size: 15px;
+    font-size: 1.2rem;
   }
   .hero .hero-img img {
     width: 100%;
