@@ -377,7 +377,7 @@ section {
 }
 .hero h1 {
   margin: 10px 0 0 0;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #ffffff;
 }
@@ -453,23 +453,28 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
   padding: 40px;
+  font-family: "Poppins", sans-serif;
 }
 .about h3 {
-  font-size: 14px;
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
   color: #25B8D9;
   text-transform: uppercase;
 }
 .about h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 1.7rem;
+  font-weight: 500;
   color: #2B3A8C;
 }
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+}
+.about img{
+  width: 31rem;
+  height: auto;
 }
 .about .btn-read-more {
   line-height: 0;
@@ -479,20 +484,6 @@ section {
   color: #fff;
   background: #25B8D9;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
-}
-.about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-.about .btn-read-more i {
-  margin-left: 5px;
-  font-size: 18px;
-  transition: 0.3s;
-}
-.about .btn-read-more:hover i {
-  transform: translateX(5px);
 }
 
 /*--------------------------------------------------------------
