@@ -74,12 +74,19 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
+  let selectNav = select('#navbar')
+  let selectMobile = select('#iconcolor')
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add('header-scrolled')
+        selectNav.classList.add('inverted')
+        selectMobile.classList.add('inverted')
+      
       } else {
         selectHeader.classList.remove('header-scrolled')
+        selectNav.classList.remove('inverted')
+        selectMobile.classList.remove('inverted')
       }
     }
     window.addEventListener('load', headerScrolled)

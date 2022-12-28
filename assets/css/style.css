@@ -106,11 +106,13 @@ section {
   z-index: 997;
   padding: 20px 0;
 }
-.header.header-scrolled {
+.header.header-scrolled{
   background: #fff;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  /* color: #002357; */
 }
+
 .header .logo {
   line-height: 0;
 }
@@ -146,6 +148,7 @@ section {
 .navbar li {
   position: relative;
 }
+
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
@@ -154,7 +157,19 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #2B3A8C;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navbar.inverted a, .navbar.inverted a:focus{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #003f9d;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -164,6 +179,12 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #25B8D9;
+}
+.navbar.inverted a:hover,
+.navbar.inverted .active,
+.navbar.inverted .active:focus,
+.navbar.inverted li:hover>a {
   color: #25B8D9;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
@@ -236,6 +257,14 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+.mobile-nav-toggle.inverted {
   color: #2B3A8C;
   font-size: 28px;
   cursor: pointer;
@@ -249,6 +278,15 @@ section {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .mobile-nav-toggle.inverted {
     display: block;
   }
 
@@ -335,16 +373,16 @@ section {
   margin: 0;
   font-size: 1.7rem;
   font-weight: 600;
-  color:#25B8D9;
+  color:#2ec3e5;
 }
 .hero h1 {
   margin: 10px 0 0 0;
   font-size: 3rem;
   font-weight: 700;
-  color: #2B3A8C;
+  color: #ffffff;
 }
 .hero h2 {
-  color: #444444;
+  color: #55d1ed;
   margin: 20px 0 0 0;
   font-size: 1.4rem;
 }
@@ -352,11 +390,11 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 15px;
   transition: 0.5s;
-  color: #fff;
-  background: #25B8D9;
-  box-shadow: 0px 5px 30px rgba(143, 240, 255, 0.439);
+  color: #000;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(189, 216, 220, 0.439);
 }
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
