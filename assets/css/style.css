@@ -36,6 +36,7 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 40px;
+  padding-top: 20px;
 }
 .section-header h2 {
   font-size: 13px;
@@ -105,6 +106,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+    background-color: #002358 ;
 }
 .header.header-scrolled{
   background: #fff;
@@ -137,6 +139,7 @@ section {
 */
 .navbar {
   padding: 0;
+
 }
 .navbar ul {
   margin: 0;
@@ -747,7 +750,7 @@ section {
   font-weight: 300;
 }
 .e-modal img {
-  padding: 30px 40px;
+  align-items: center;
 }
 .e-modal ul {
   padding: 0;
@@ -924,9 +927,11 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
+  /* border: 50px solid #0864B1;
+  border-style: solid none none none ; */
   margin: 40px 30px;
   box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-  background: #fff;
+  /* background: #fff; */
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -950,7 +955,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #0864B1;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -992,7 +997,95 @@ section {
     transform: scale(1.12);
   }
 }
+/*--------------------------------------------------------------
+# Cloudplus model
+--------------------------------------------------------------*/
+table {
 
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  transform: scale(1);
+  height: 100%;
+  display: flex;
+  background-color: #fff;
+}
+table img{
+  padding: 20px !important;
+}
+th,
+td{
+  border: 1px solid black;
+}
+.bx1{
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+      height: 100%;
+    transform: scale(1);
+    display:flex;
+    background: white url(../img/frame-1.svg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.bx1:hover{
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transform: scale(1.1);
+}
+.bx2 {
+  text-align: center;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    transform: scale(1);
+    height: 36rem;
+    display:flex;
+    background: white url(../img/frame-2.svg) no-repeat right top;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.bx2:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transform: scale(1.1);
+}
+.bx3 {
+  background: white url(../img/frame-3.svg) no-repeat right top;
+  text-align: center;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  transform: scale(1);
+    height: 36rem;
+  display:flex;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+}
+.bx3:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transform: scale(1.1);
+}
+.bx4 {
+  background: white url(../img/frame-4.svg) no-repeat right top;
+  text-align: center;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  transform: scale(1);
+    height: 36rem;
+  display:flex;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+}
+.bx4:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transform: scale(1.1);
+}
 
 /*--------------------------------------------------------------
 # Contact
